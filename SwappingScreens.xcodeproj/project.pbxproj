@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		764D39B41EFC676B00720EC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764D39B31EFC676B00720EC5 /* AppDelegate.swift */; };
-		764D39B61EFC676B00720EC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764D39B51EFC676B00720EC5 /* ViewController.swift */; };
+		764D39B61EFC676B00720EC5 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764D39B51EFC676B00720EC5 /* LoginVC.swift */; };
 		764D39B91EFC676B00720EC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 764D39B71EFC676B00720EC5 /* Main.storyboard */; };
 		764D39BB1EFC676B00720EC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 764D39BA1EFC676B00720EC5 /* Assets.xcassets */; };
 		764D39BE1EFC676B00720EC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 764D39BC1EFC676B00720EC5 /* LaunchScreen.storyboard */; };
+		764D39C61EFC699100720EC5 /* MusicListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764D39C51EFC699100720EC5 /* MusicListVC.swift */; };
+		764D39C81EFC707A00720EC5 /* PlaySongVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764D39C71EFC707A00720EC5 /* PlaySongVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		764D39B01EFC676B00720EC5 /* SwappingScreens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwappingScreens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		764D39B31EFC676B00720EC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		764D39B51EFC676B00720EC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		764D39B51EFC676B00720EC5 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		764D39B81EFC676B00720EC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		764D39BA1EFC676B00720EC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		764D39BD1EFC676B00720EC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		764D39BF1EFC676B00720EC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		764D39C51EFC699100720EC5 /* MusicListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicListVC.swift; sourceTree = "<group>"; };
+		764D39C71EFC707A00720EC5 /* PlaySongVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySongVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				764D39B31EFC676B00720EC5 /* AppDelegate.swift */,
-				764D39B51EFC676B00720EC5 /* ViewController.swift */,
+				764D39B51EFC676B00720EC5 /* LoginVC.swift */,
 				764D39B71EFC676B00720EC5 /* Main.storyboard */,
 				764D39BA1EFC676B00720EC5 /* Assets.xcassets */,
 				764D39BC1EFC676B00720EC5 /* LaunchScreen.storyboard */,
 				764D39BF1EFC676B00720EC5 /* Info.plist */,
+				764D39C51EFC699100720EC5 /* MusicListVC.swift */,
+				764D39C71EFC707A00720EC5 /* PlaySongVC.swift */,
 			);
 			path = SwappingScreens;
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				764D39B61EFC676B00720EC5 /* ViewController.swift in Sources */,
+				764D39C61EFC699100720EC5 /* MusicListVC.swift in Sources */,
+				764D39C81EFC707A00720EC5 /* PlaySongVC.swift in Sources */,
+				764D39B61EFC676B00720EC5 /* LoginVC.swift in Sources */,
 				764D39B41EFC676B00720EC5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
